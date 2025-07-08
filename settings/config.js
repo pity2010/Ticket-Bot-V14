@@ -1,7 +1,9 @@
+require('dotenv').config(); 
+
 module.exports = {
-    token: "TOKEN_BOT",
-    ticket_channel: "CHANNEL_ID",
-    ticket_category: "CATEGORY_ID",
-    ticket_logs: "CHANNEL_ID",
-    support_team: "ROLE_ID"
-}
+    token: process.env.DISCORD_TOKEN,  
+    ticket_channel: process.env.TICKET_CHANNEL,  
+    ticket_category: process.env.TICKET_CATEGORY,  
+    ticket_logs: process.env.TICKET_LOGS,  
+    support_team: process.env.SUPPORT_TEAM  
+};
