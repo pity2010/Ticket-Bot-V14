@@ -8,9 +8,9 @@ const client = new Client({
     failIfNotExists: false,
     presence: {
         activities: [{
-            name: `Chose your status`,
+            name: `The Best Cheat`,
             type: ActivityType.Streaming,
-            url: "https://www.twitch.tv/zqx"
+            url: "https://discord.gg/jwkKATd9Wp"
         }],
         status: "online"
     },
