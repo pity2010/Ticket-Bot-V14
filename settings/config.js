@@ -1,5 +1,3 @@
-require('dotenv').config(); 
-
 module.exports = {
     token: process.env.DISCORD_TOKEN,  
     ticket_channel: process.env.TICKET_CHANNEL,  
