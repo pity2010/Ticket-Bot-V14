@@ -39,22 +39,34 @@ module.exports = {
                             .setPlaceholder('Select a category')
                             .addOptions([
                                 {
-                                    label: 'Report',
-                                    description: 'Report a user',
+                                    label: 'External Red Hood',
+                                    description: 'Buy Red Hood',
                                     value: 'report',
-                                    emoji: '🐛'
+                                    emoji: '🛒'
                                 },
                                 {
-                                    label: 'Question',
-                                    description: 'any question',
+                                    label: 'DS4 Windows',
+                                    description: 'Buy DS4',
                                     value: 'question',
-                                    emoji: '📝'
+                                    emoji: '🛒'
                                 },
                                 {
-                                    label: 'Other',
-                                    description: 'Other',
+                                    label: 'Cronus',
+                                    description: 'Buy Cronus',
                                     value: 'other',
-                                    emoji: '📁'
+                                    emoji: '🛒'
+                                },
+                                {
+                                    label: 'Script Sin Cronus',
+                                    description: 'Buy Sin Cronus',
+                                    value: 'other',
+                                    emoji: '🛒'
+                                },
+                                {
+                                    label: 'Camuflajes',
+                                    description: 'Buy Camuflaje',
+                                    value: 'other',
+                                    emoji: '🛒'
                                 }
                             ])
                         )
