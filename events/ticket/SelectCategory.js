@@ -59,13 +59,13 @@ module.exports = {
                                 {
                                     label: 'Script Sin Cronus',
                                     description: 'Buy Sin Cronus',
-                                    value: 'other',
+                                    value: 'other2',
                                     emoji: '🛒'
                                 },
                                 {
                                     label: 'Camuflajes',
                                     description: 'Buy Camuflaje',
-                                    value: 'other',
+                                    value: 'other3',
                                     emoji: '🛒'
                                 }
                             ])
